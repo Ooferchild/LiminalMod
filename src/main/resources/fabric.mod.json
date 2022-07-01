@@ -10,9 +10,6 @@
   "icon": "assets/liminal/icon.png",
   "environment": "*",
   "entrypoints": {
-    "client": [
-      "oofer.liminal.client.LiminalClient"
-    ],
     "main": [
       "oofer.liminal.Liminal"
     ]

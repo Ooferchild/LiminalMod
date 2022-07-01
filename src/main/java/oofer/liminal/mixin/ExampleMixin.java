@@ -1,8 +1,7 @@
 package oofer.liminal.mixin;
 
-
-import net.minecraft.client.gui.screen.TitleScreen;
 import oofer.liminal.Liminal;
+import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -12,6 +11,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class ExampleMixin {
     @Inject(at = @At("HEAD"), method = "init()V")
     private void init(CallbackInfo info) {
-        //Liminal.LOGGER.info("This mod is printed by Liminal mixin!");
+        Liminal.LOGGER.info("This line is printed by an example mod mixin!");
     }
 }
