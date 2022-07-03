@@ -1,0 +1,11 @@
+{
+  "type": "liminal:level_0_type",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "minecraft:overworld",
+    "biome_source": {
+      "type": "minecraft:checkerboard",
+      "biomes": "minecraft:desert"
+    }
+  }
+}
